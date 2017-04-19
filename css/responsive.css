@@ -24,9 +24,15 @@
   #body {
     font-size: 10px;
   }
+
+  #name h1 {
+    font-size: 1.1em;
+  }
+
   #wrapper {
     width: 80%;
     left: 10%;
+    top: 27%;
   }
 }
 
