@@ -22,11 +22,11 @@ a {
   color: white;
 }
 
-#about a:hover, #resume a:hover {
+/*#about a:hover, #resume a:hover {
   color: black;
   background: grey;
 }
-
+*/
 #linkedin img:hover {
   content: url("../images/linkedin-letters-white.png");
   position: relative;
