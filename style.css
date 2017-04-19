@@ -1,31 +1,14 @@
-#wrapper {
-  background: white;
-  margin: auto auto;
-  size: 50;
-}
-
-.rect {
-  text-align: center;
-}
-
-#name {
-  background: white;
-}
-
-#about,#github {
-  width: 33%;
-  margin: auto auto;
-}
-
+/* ---- COLORING ----  */
 #linkedin,#about,#github,#resume {
   background: black;
   color: white;
 }
 
-#linkedin,#name,#resume {
-  display: inline-block;
+#name {
+  background: aqua;
 }
 
+/* ---- STYLE ---- */
 a {
   text-decoration: none;
   color: white;
@@ -36,11 +19,6 @@ a:hover {
   background: grey;
 }
 
-img {
-  height: 33%;
-  max-height: 33%;
-}
-
 #linkedin:hover {
   content: url("images/linkedin-letters-white.png");
 }
@@ -48,17 +26,36 @@ img {
 #github:hover {
   content: url("images/github-letters-white.png");
 }
-/*
-a:link {
-text-decoration: none;
+
+/* ---- STRUCTURE ---- */
+#wrapper {
+  background: white;
+  margin: 0 auto;
+  width: 50%;
+  height: 30%;
+  max-height: 30%;
+  position: fixed;
+  top: 20%;
+  left: 25%;
 }
 
-a:visited {
-text-decoration: none;
+.rect {
+  height: 33%;
+  width: 33%;
+  text-align: center;
 }
 
-a:hover {
-text-decoration: none;
+#about,#resume {
+  margin: 0 auto;
 }
-*/
+
+
+#linkedin,#name,#github{
+  display: inline-block;
+}
+
+img {
+  height: 100%;
+  max-height: 100%;
+}
 
