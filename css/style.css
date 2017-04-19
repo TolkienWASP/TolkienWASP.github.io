@@ -1,3 +1,13 @@
+/*
+ * fonts:
+ * https://fonts.google.com/specimen/Audiowide?selection.family=Audiowide
+ * https://fonts.google.com/specimen/Source+Code+Pro
+ * https://fonts.google.com/specimen/Inconsolata
+ * https://fonts.google.com/specimen/VT323
+ * https://fonts.google.com/specimen/Unica+One
+ * https://fonts.google.com/specimen/Ubuntu+Mono
+ * https://fonts.google.com/specimen/Press+Start+2P
+ */
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 /* ---- COLORING ----  */
@@ -23,6 +33,7 @@ a {
   top: -45%;
   height: 190%;
   max-height: 190%;
+  max-width: 100%;
 }
 
 #linkedin a:hover, #github a:hover {
@@ -31,10 +42,15 @@ a {
 
 #github img:hover {
   content: url("../images/github-letters-white.png");
+  max-width: 100%;
 }
 
 body {
-  font: 2em 'Orbitron', sans-serif;
+  font: 23px 'Orbitron', sans-serif;
+}
+
+#name h1 {
+  font-size: 1.3em;
 }
 
 #linkedin img {
@@ -52,6 +68,11 @@ body {
 }
 
 /* ---- STRUCTURE ---- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #wrapper {
   width: 50%;
   height: 33.3333%;
@@ -61,7 +82,6 @@ body {
 }
 
 .rect {
-  margin: 0;
   height: 33.333333%;
   width: 33.333333%;
   text-align: center;
@@ -77,4 +97,18 @@ body {
 
 #about, #resume {
   margin: 0 auto;
+}
+
+#about a {
+  vertical-align: middle;
+}
+
+/* vertically center text */
+#about, #resume, #name {
+  display: table;
+}
+
+h1, #about a, #resume a{
+  vertical-align: middle;
+  display: table-cell;
 }
