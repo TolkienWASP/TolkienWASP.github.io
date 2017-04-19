@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+/* ---- COLORING ----  */
+#linkedin,#about,#github,#resume {
+  background: black;
+  color: white;
+}
+
+#wrapper {
+  background: yellow;
+}
+
+#name {
+  background: aqua;
+}
+
+/* ---- STYLE ---- */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#about a:hover, #resume a:hover {
+  color: black;
+  background: grey;
+}
+
+#linkedin img:hover {
+  content: url("../images/linkedin-letters-white.png");
+  position: relative;
+  top: -45%;
+  height: 190%;
+  max-height: 190%;
+}
+
+#linkedin a:hover, #github a:hover {
+  background: none;
+}
+
+#github img:hover {
+  content: url("../images/github-letters-white.png");
+}
+
+body {
+  font: 2em 'Orbitron', sans-serif;
+}
+
+#linkedin img {
+  height: 60%;
+  max-height: 60%;
+  position: relative;
+  top: 20%;
+}
+
+#github img {
+  height: 70%;
+  max-height: 70%;
+  position: relative;
+  top: 15%;
+}
+
+/* ---- STRUCTURE ---- */
+#wrapper {
+  background: green;
+  width: 50%;
+  height: 33.3333%;
+  position: fixed;
+  top: 30.33333%;
+  left: 25%;
+}
+
+.rect {
+  margin: 0;
+  height: 33.333333%;
+  width: 33.333333%;
+  text-align: center;
+}
+
+#linkedin, #name, #github {
+  float: left;
+}
+
+#resume {
+  clear: both;
+}
+
+#about, #resume {
+  margin: 0 auto;
+}
