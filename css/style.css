@@ -22,7 +22,9 @@ a {
   color: white;
 }
 
-/*#about a:hover, #resume a:hover {
+/* DISABLED UNTIL JAVASCRIPT IMPLEMENT -- so that grey highlight
+ * is consistent with logo navigation
+ * #about a:hover, #resume a:hover {
   color: black;
   background: grey;
 }
