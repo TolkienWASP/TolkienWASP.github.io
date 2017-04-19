@@ -6,14 +6,6 @@
   color: white;
 }
 
-#wrapper {
-  background: yellow;
-}
-
-#name {
-  background: aqua;
-}
-
 /* ---- STYLE ---- */
 a {
   text-decoration: none;
@@ -61,7 +53,6 @@ body {
 
 /* ---- STRUCTURE ---- */
 #wrapper {
-  background: green;
   width: 50%;
   height: 33.3333%;
   position: fixed;
