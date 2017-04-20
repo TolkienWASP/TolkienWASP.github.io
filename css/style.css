@@ -10,41 +10,14 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-/* ---- COLORING ----  */
-#linkedin,#about,#github,#resume {
+.black {
   background: black;
   color: white;
 }
 
-/* ---- STYLE ---- */
 a {
   text-decoration: none;
   color: white;
-}
-
-/* DISABLED UNTIL JAVASCRIPT IMPLEMENT -- so that grey highlight
- * is consistent with logo navigation
- * #about a:hover, #resume a:hover {
-  color: black;
-  background: grey;
-}
-*/
-#linkedin img:hover {
-  content: url("../images/linkedin-letters-white.png");
-  position: relative;
-  top: -45%;
-  height: 190%;
-  max-height: 190%;
-  max-width: 100%;
-}
-
-#linkedin a:hover, #github a:hover {
-  background: none;
-}
-
-#github img:hover {
-  content: url("../images/github-letters-white.png");
-  max-width: 100%;
 }
 
 body {
@@ -53,64 +26,4 @@ body {
 
 #name h1 {
   font-size: 1.3em;
-}
-
-#linkedin img {
-  height: 60%;
-  max-height: 60%;
-  position: relative;
-  top: 20%;
-}
-
-#github img {
-  height: 70%;
-  max-height: 70%;
-  position: relative;
-  top: 15%;
-}
-
-/* ---- STRUCTURE ---- */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-#wrapper {
-  width: 50%;
-  height: 33.3333%;
-  position: fixed;
-  top: 30.33333%;
-  left: 25%;
-}
-
-.rect {
-  height: 33.333333%;
-  width: 33.333333%;
-  text-align: center;
-}
-
-#linkedin, #name, #github {
-  float: left;
-}
-
-#resume {
-  clear: both;
-}
-
-#about, #resume {
-  margin: 0 auto;
-}
-
-#about a {
-  vertical-align: middle;
-}
-
-/* vertically center text */
-#about, #resume, #name {
-  display: table;
-}
-
-h1, #about a, #resume a{
-  vertical-align: middle;
-  display: table-cell;
 }
