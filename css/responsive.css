@@ -19,30 +19,19 @@
   }
 }
 
-/* update layout for heavy compress */
+/* update layout for mobile */
 @media only screen and (max-width: 600px) {
   #body {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   #name h1 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   #wrapper {
     width: 84%;
     left: 8%;
     top: 27%;
-  }
-}
-
-/* update layout for mobile */
-@media only screen and (max-width: 400px) {
-  #body {
-    font-size: 10px;
-  }
-
-  #name h1 {
-    font-size: 1em;
   }
 }
