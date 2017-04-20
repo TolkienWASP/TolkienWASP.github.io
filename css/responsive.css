@@ -19,7 +19,7 @@
   }
 }
 
-/* update layout for mobile */
+/* update layout for heavy compress */
 @media only screen and (max-width: 600px) {
   #body {
     font-size: 10px;
@@ -36,3 +36,13 @@
   }
 }
 
+/* update layout for mobile */
+@media only screen and (max-width: 400px) {
+  #body {
+    font-size: 10px;
+  }
+
+  #name h1 {
+    font-size: 1em;
+  }
+}
