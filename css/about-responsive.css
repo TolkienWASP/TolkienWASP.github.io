@@ -1,0 +1,15 @@
+@media only screen and (min-width: 881px) {
+  #wrapper {
+    width: 844px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -210px;
+    margin-left: -422px;
+  }
+
+  nav {
+    width: 844px;
+  }
+}

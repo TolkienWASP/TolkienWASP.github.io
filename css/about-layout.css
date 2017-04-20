@@ -47,3 +47,14 @@ nav a h1{
 #bio p {
   line-height: 25px;
 }
+
+#img-wrap {
+  float: left;
+  width: 20%;
+  margin-right: 15px;
+}
+
+#bio img {
+  width: 100%;
+  height: auto;
+}
