@@ -7,7 +7,7 @@
 /* disable logo lettering on hover */
 @media only screen and (max-width: 700px) {
   #github img:hover {
-    content: url("../images/github-logo-white.png");
+    content: url("../images/github-logo-whit.png");
   }
 
   #linkedin img:hover {
@@ -20,7 +20,7 @@
 }
 
 /* update layout for mobile */
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   #body {
     font-size: 8px;
   }
@@ -35,3 +35,4 @@
     top: 27%;
   }
 }
+*/
